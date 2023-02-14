@@ -59,7 +59,7 @@ export default function Home() {
       </main>
       <footer className="footer fade-out">
         <div>
-          Made with 🖤 by <a href="https://twitter.com/inurinternet" target="_blank" rel='noreferrer'>@inurinternet</a> ][ Tips Welcome: <span className="cursor-pointer token" onClick={() => { navigator.clipboard.writeText('bc1qjlwxkt5f8ljeqe33wmz7gyqmwhapcy7kect0ty') }}>BTC</span> &bull; <span className="cursor-pointer token" onClick={() => { navigator.clipboard.writeText('0xC04208F289D3842Ac168f2C373b3164E1d872650') }}>ETH</span>
+          Made with 🖤 by <a className="token" href="https://twitter.com/inurinternet" target="_blank" rel='noreferrer'>@inurinternet</a> ][ Tips Welcome: <span className="cursor-pointer token" onClick={() => { navigator.clipboard.writeText('bc1qjlwxkt5f8ljeqe33wmz7gyqmwhapcy7kect0ty') }}>BTC</span> &bull; <span className="cursor-pointer token" onClick={() => { navigator.clipboard.writeText('0xC04208F289D3842Ac168f2C373b3164E1d872650') }}>ETH</span>
         </div>
       </footer>
     </>
