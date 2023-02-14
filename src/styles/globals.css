@@ -105,3 +105,44 @@ a {
     color-scheme: dark;
   }
 }
+
+
+.grid {
+  width: 100%;
+  max-height: 100vh;
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    ". . . . . . . . . ."
+    ". . . . . . . . . ."
+    ". . . . . . . . . ."
+    ". . . . . . . . . ."
+    ". . . . . . . . . ."
+    ". . . . . . . . . ."
+    ". . . . . . . . . ."
+    ". . . . . . . . . ."
+    ". . . . . . . . . ."
+    ". . . . . . . . . ."
+    ". . . . . . . . . ."; 
+}
+
+.grid > .tile {
+  display: flex;
+}
+
+iframe {
+  aspect-ratio: 1/1;
+  display: block;
+  border: none;
+  pointer-events: none;
+  width: 100%;
+}
+
+.fade-in { animation: fadeIn .5s; }
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
